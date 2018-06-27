@@ -19,6 +19,6 @@
 
   <img src="./screenshot/1.png" width="320"/>
 
-## 其他知识点
+## 其他知识点
 
 Android Studio 模拟器截屏：`Command + s`
