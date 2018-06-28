@@ -1,3 +1,6 @@
+// https://github.com/Gnotes/Android/tree/master/Gradle
+// `com.android.application`表示这是一个应用程序模块
+// `com.android.library`表示这是一个库模块
 apply plugin: 'com.android.application'
 
 android {
@@ -12,15 +15,17 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled false // 指定是否对项目进行代码混淆, false 表示不混淆
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' // 混淆规则
         }
     }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // 远程兼容依赖包
     implementation 'com.android.support:appcompat-v7:27.1.1'
+    // 约束布局 添加依赖包
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     implementation 'com.android.support:design:27.1.1'
     testImplementation 'junit:junit:4.12'

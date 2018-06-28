@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.xing.simplenews">
 
+    <!-- supportsRtl Right to Left Layout, 从右到左的布局方式，默认是false，此属性是 API-17 以后开放的 -->
+    <!-- icon 普通图标，新版本的IDE会帮我们设置icon和roundIcon -->
+    <!-- roundIcon 圆形图标，Android自带模拟器会使用该图标 -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,8 +17,8 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
+                <!-- 指定APP启动后加载的活动， action 和 category是必须的，且值必须如下所示 -->
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
