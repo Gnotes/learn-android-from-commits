@@ -21,21 +21,26 @@
 
 ### 需要了解的知识点
 
-- Toolbar
+- [Toolbar](https://www.jianshu.com/p/e9130d31ee1f) 👍
 - FloatingActionButton
-- Snackbar
-- CoordinatorLayout
-- AppBarLayout
-- ConstraintLayout
-- xmlns
+- [Snackbar](http://wiki.jikexueyuan.com/project/material-design/components/snackbars-and-toasts.html)
+- [CoordinatorLayout](https://blog.csdn.net/jxf_access/article/details/79564669) 👍 协调布局或者黏性布局
+- [AppBarLayout](https://blog.csdn.net/jxf_access/article/details/79564669) 👍
+- [ConstraintLayout](https://blog.csdn.net/lmj623565791/article/details/78011599?utm_source=tuicool&utm_medium=referral) 👍 约束布局
+- [xmlns](https://github.com/Gnotes/Android/blob/master/UI%E5%B8%83%E5%B1%80/xmlns.md)
 - supportsRtl
 - roundIcon
 - apply plugin: 'com.android.application'
 - apply plugin: 'com.android.library'
-- com.android.support:appcompat-v7:*
+- [com.android.support:appcompat-v*:*](https://blog.csdn.net/u010015108/article/details/52459890) [another blog](https://www.jb51.net/article/65520.htm)
 - com.android.support.constraint:constraint-layout:*
 - com.android.support:design:*
 
 ## 其他知识点
 
 Android Studio 模拟器截屏：`Command + s`
+
+## 基础储备
+
+- [Material Design](http://wiki.jikexueyuan.com/project/material-design/)
+- [Android 全知识](http://wiki.jikexueyuan.com/list/android/)
