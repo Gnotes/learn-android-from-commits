@@ -25,6 +25,8 @@
 
   <img src="./screenshot/2.png" width="320">
 
+- [更新圆形图片依赖包到最新版本，及修改属性](https://github.com/Gnotes/learn-android-from-commits/commit/974ecddd3a954c216dbf00afd4fa41bb171480d8)
+
 ### 需要了解的知识点
 
 - [Toolbar](https://www.jianshu.com/p/e9130d31ee1f) 👍
