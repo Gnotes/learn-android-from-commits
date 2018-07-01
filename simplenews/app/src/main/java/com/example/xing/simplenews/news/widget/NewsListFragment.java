@@ -24,7 +24,9 @@ public class NewsListFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // 同样的初始化碎片布局
         View view = inflater.inflate(R.layout.fragment_newslist, null);
+        // 初始化列表View
         mRecyclerView = (RecyclerView)view.findViewById(R.id.recycle_view);
         mRecyclerView.setHasFixedSize(true);
 

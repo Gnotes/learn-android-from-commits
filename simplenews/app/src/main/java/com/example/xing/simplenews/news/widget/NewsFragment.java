@@ -24,14 +24,19 @@ public class NewsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // 初始化碎片视图
         View view = inflater.inflate(R.layout.fragment_news, null);
+        // 初始化选项卡
         mTablayout = (TabLayout) view.findViewById(R.id.tab_layout);
+        // 初始化视图滑动切换工具
         mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
         setupViewPager(mViewPager);
+        // 添加tab项
         mTablayout.addTab(mTablayout.newTab().setText(R.string.top));
         mTablayout.addTab(mTablayout.newTab().setText(R.string.nba));
         mTablayout.addTab(mTablayout.newTab().setText(R.string.cars));
         mTablayout.addTab(mTablayout.newTab().setText(R.string.jokes));
+        // 加载pager
         mTablayout.setupWithViewPager(mViewPager);
         return view;
     }
@@ -46,6 +51,9 @@ public class NewsFragment extends Fragment {
         mViewPager.setAdapter(adapter);
     }
 
+    /**
+     * 定义适配器
+     */
     static class MyPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragments = new ArrayList<>();
         private final List<String> mFragmentTitles = new ArrayList<>();
