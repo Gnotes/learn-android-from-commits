@@ -19,6 +19,12 @@
 
   <img src="./screenshot/1.png" width="320"/>
 
+- [添加基础布局](https://github.com/Gnotes/learn-android-from-commits/commit/24110f1c05a3581f3dc3f69a4fb2ce5754a395a8)
+
+添加了抽屉式布局，首页选项卡布局  
+
+  <img src="./screenshot/2.png" width="320">
+
 ### 需要了解的知识点
 
 - [Toolbar](https://www.jianshu.com/p/e9130d31ee1f) 👍
@@ -35,10 +41,13 @@
 - [com.android.support:appcompat-v*:*](https://blog.csdn.net/u010015108/article/details/52459890) [another blog](https://www.jb51.net/article/65520.htm)
 - com.android.support.constraint:constraint-layout:*
 - com.android.support:design:*
+- [RecyclerView使用详解](https://blog.csdn.net/yuminfeng728/article/details/52020708)
 
 ## 其他知识点
 
-Android Studio 模拟器截屏：`Command + s`
+Android Studio  
+
+模拟器截屏：`cmd + s` 生成代码 `cmd + n` 生成构造 `cmd + o`
 
 ## 基础储备
 
