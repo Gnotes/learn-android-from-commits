@@ -27,6 +27,8 @@
 
 - [更新圆形图片依赖包到最新版本，及修改属性](https://github.com/Gnotes/learn-android-from-commits/commit/974ecddd3a954c216dbf00afd4fa41bb171480d8)
 
+- [添加代码注释](https://github.com/Gnotes/learn-android-from-commits/commit/90ead5a6c5dfcf0d60124e9636a858489532fed6)
+
 ### 需要了解的知识点
 
 - [Toolbar](https://www.jianshu.com/p/e9130d31ee1f) 👍
@@ -44,6 +46,11 @@
 - com.android.support.constraint:constraint-layout:*
 - com.android.support:design:*
 - [RecyclerView使用详解](https://blog.csdn.net/yuminfeng728/article/details/52020708)
+- [Fragment](https://github.com/Gnotes/Android/tree/master/Fragment)
+- [LayoutInflater](http://www.runoob.com/w3cnote/android-tutorial-layoutinflater.html) 用于解析(实例化)Layout XML文件(布局XML文件)生成对应的 View对象
+- [ActionBarDrawerToggle](https://blog.csdn.net/chaoshenzhaoxichao/article/details/79007918)
+- [NavigationView](https://blog.csdn.net/hj2drf/article/details/77017284) 导航视图
+- [ViewPager](http://www.runoob.com/w3cnote/android-tutorial-viewpager.html)
 
 ## 其他知识点
 
@@ -55,3 +62,4 @@ Android Studio
 
 - [Material Design](http://wiki.jikexueyuan.com/project/material-design/)
 - [Android 全知识](http://wiki.jikexueyuan.com/list/android/)
+- [Android基础入门教程](http://www.runoob.com/w3cnote/android-tutorial-intro.html)
