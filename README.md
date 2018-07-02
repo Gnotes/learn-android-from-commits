@@ -28,6 +28,7 @@
 - [更新圆形图片依赖包到最新版本，及修改属性](https://github.com/Gnotes/learn-android-from-commits/commit/974ecddd3a954c216dbf00afd4fa41bb171480d8)
 
 - [添加代码注释](https://github.com/Gnotes/learn-android-from-commits/commit/90ead5a6c5dfcf0d60124e9636a858489532fed6)
+- [添加newsItem 布局文件](https://github.com/Gnotes/learn-android-from-commits/commit/2773ef492faa27ade1ccc5da330c6d673cb0559a)
 
 ### 需要了解的知识点
 
