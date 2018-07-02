@@ -51,6 +51,7 @@
 - [ActionBarDrawerToggle](https://blog.csdn.net/chaoshenzhaoxichao/article/details/79007918)
 - [NavigationView](https://blog.csdn.net/hj2drf/article/details/77017284) 导航视图
 - [ViewPager](http://www.runoob.com/w3cnote/android-tutorial-viewpager.html)
+- [View Identification](https://github.com/Gnotes/Android/tree/master/UI%E5%B8%83%E5%B1%80#view-identification)
 
 ## 其他知识点
 
