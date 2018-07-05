@@ -29,6 +29,10 @@
 
 - [添加代码注释](https://github.com/Gnotes/learn-android-from-commits/commit/90ead5a6c5dfcf0d60124e9636a858489532fed6)
 - [添加newsItem 布局文件](https://github.com/Gnotes/learn-android-from-commits/commit/2773ef492faa27ade1ccc5da330c6d673cb0559a)
+- [添加依赖包](https://github.com/Gnotes/learn-android-from-commits/commit/a9d7edb6d1ba36562893f3eae4c32665a82c6859)  
+  > 通过Android Studio `Command + ;` 打开 `Project Structure` 点击 `Module -> app` 选择 `Dependencies` -> `Library dependency` 进行搜索。  
+
+  <img src="./screenshot/3.png" width="600">
 
 ### 需要了解的知识点
 
@@ -56,9 +60,12 @@
 
 ## 其他知识点
 
-Android Studio  
+Android Studio
 
-模拟器截屏：`cmd + s` 生成代码 `cmd + n` 生成构造 `cmd + o`
+- 模拟器截屏：`cmd + s`
+- 生成代码 `cmd + n`
+- 生成构造 `cmd + o`
+- 添加项目依赖包 `cmd + ;`
 
 ## 基础储备
 
