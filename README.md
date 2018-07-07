@@ -33,6 +33,9 @@
   > 通过Android Studio `Command + ;` 打开 `Project Structure` 点击 `Module -> app` 选择 `Dependencies` -> `Library dependency` 进行搜索。  
 
   <img src="./screenshot/3.png" width="600">
+- [添加新闻页](https://github.com/Gnotes/learn-android-from-commits/commit/add95883c46f45f0d0a3d09eca6c30b64b246775)
+
+  <img src="./screenshot/4.png" width="320">
 
 ### 需要了解的知识点
 
