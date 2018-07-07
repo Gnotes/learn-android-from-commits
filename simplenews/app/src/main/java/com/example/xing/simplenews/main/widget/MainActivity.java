@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     /**
      * 视图创建时候的生命周期
+     *
      * @param savedInstanceState
      */
     @Override
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     /**
      * 是否创建顶部右侧的菜单项的方法
+     *
      * @param menu
      * @return
      */
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     /**
      * 当菜单项点击时的方法
+     *
      * @param item
      * @return
      */
@@ -99,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     /**
      * 初始化导航视图的监听
+     *
      * @param navigationView
      */
     private void setupDrawerContent(NavigationView navigationView) {
@@ -131,12 +135,14 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     @Override
     public void switch2Images() {
-
+//        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new ImageFragment()).commit();
+//        mToolbar.setTitle(R.string.navigation_images);
     }
 
     @Override
     public void switch2Weather() {
-
+//        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new WeatherFragment()).commit();
+//        mToolbar.setTitle(R.string.navigation_weather);
     }
 
     @Override

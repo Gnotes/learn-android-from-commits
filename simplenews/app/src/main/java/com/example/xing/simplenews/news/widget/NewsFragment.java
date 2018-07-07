@@ -12,12 +12,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.xing.simplenews.R;
-import com.example.xing.simplenews.about.widget.AboutFragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class NewsFragment extends Fragment {
+    public static final int NEWS_TYPE_TOP = 0;
+    public static final int NEWS_TYPE_NBA = 1;
+    public static final int NEWS_TYPE_CARS = 2;
+    public static final int NEWS_TYPE_JOKES = 3;
+
     private TabLayout mTablayout;
     private ViewPager mViewPager;
 
@@ -30,6 +34,7 @@ public class NewsFragment extends Fragment {
         mTablayout = (TabLayout) view.findViewById(R.id.tab_layout);
         // 初始化视图滑动切换工具
         mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        mViewPager.setOffscreenPageLimit(3);
         setupViewPager(mViewPager);
         // 添加tab项
         mTablayout.addTab(mTablayout.newTab().setText(R.string.top));
@@ -44,10 +49,10 @@ public class NewsFragment extends Fragment {
     private void setupViewPager(ViewPager mViewPager) {
         //Fragment中嵌套使用Fragment一定要使用getChildFragmentManager(),否则会有问题
         MyPagerAdapter adapter = new MyPagerAdapter(getChildFragmentManager());
-        adapter.addFragment(new AboutFragment(), "内容简介");
-        adapter.addFragment(new AboutFragment(), "作者简介");
-        adapter.addFragment(new AboutFragment(), "目录");
-        adapter.addFragment(new AboutFragment(), "目录");
+        adapter.addFragment(NewsListFragment.newInstance(NEWS_TYPE_TOP), getString(R.string.top));
+        adapter.addFragment(NewsListFragment.newInstance(NEWS_TYPE_NBA), getString(R.string.nba));
+        adapter.addFragment(NewsListFragment.newInstance(NEWS_TYPE_CARS), getString(R.string.cars));
+        adapter.addFragment(NewsListFragment.newInstance(NEWS_TYPE_JOKES), getString(R.string.jokes));
         mViewPager.setAdapter(adapter);
     }
 

@@ -64,8 +64,9 @@ Android Studio
 
 - 模拟器截屏：`cmd + s`
 - 生成代码 `cmd + n`
-- 生成构造 `cmd + o`
 - 添加项目依赖包 `cmd + ;`
+- 覆写父类方法 `ctrl + o`
+- 实现接口方法 `ctrl + i`
 
 ## 基础储备
 
