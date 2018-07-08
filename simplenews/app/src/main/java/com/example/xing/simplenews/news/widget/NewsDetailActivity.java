@@ -2,7 +2,6 @@ package com.example.xing.simplenews.news.widget;
 
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
@@ -13,16 +12,20 @@ import com.example.xing.simplenews.beans.NewsBean;
 import com.example.xing.simplenews.news.presenter.NewsDetailPresenter;
 import com.example.xing.simplenews.news.presenter.NewsDetailPresenterImpl;
 import com.example.xing.simplenews.news.view.NewsDetailView;
+import com.example.xing.simplenews.utils.DensityUtil;
 import com.example.xing.simplenews.utils.ImageLoaderUtils;
+import com.example.xing.swipeback.SwipeBackLayout;
+import com.example.xing.swipeback.app.SwipeBackActivity;
 
 import org.sufficientlysecure.htmltextview.HtmlTextView;
 
-public class NewsDetailActivity extends AppCompatActivity implements NewsDetailView {
+public class NewsDetailActivity extends SwipeBackActivity implements NewsDetailView {
 
     private NewsBean mNews;
     private HtmlTextView mTVNewsContent;
     private NewsDetailPresenter mNewsDetailPresenter;
     private ProgressBar mProgressBar;
+    private SwipeBackLayout mSwipeBackLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +43,10 @@ public class NewsDetailActivity extends AppCompatActivity implements NewsDetailV
                 onBackPressed();
             }
         });
+
+        mSwipeBackLayout = getSwipeBackLayout();
+        mSwipeBackLayout.setEdgeSize(DensityUtil.getWidthInPx(this));
+        mSwipeBackLayout.setEdgeTrackingEnabled(SwipeBackLayout.EDGE_LEFT);
 
         mNews = (NewsBean) getIntent().getSerializableExtra("news");
 

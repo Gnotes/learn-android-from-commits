@@ -23,6 +23,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':swipeback')
     // 远程兼容依赖包
     implementation 'com.android.support:appcompat-v7:27.1.1'
     // 约束布局 添加依赖包
