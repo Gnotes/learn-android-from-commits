@@ -36,6 +36,8 @@
 - [添加新闻页](https://github.com/Gnotes/learn-android-from-commits/commit/add95883c46f45f0d0a3d09eca6c30b64b246775)
 
   <img src="./screenshot/4.png" width="320">
+- [添加侧滑关闭activity](https://github.com/Gnotes/learn-android-from-commits/commit/eb9b614e453e237b979ea1a05200b3a3c4de8b02)
+  > 通过Android Studio `Command + n` 创建一个 `Module` -> `swipeback`，然后在 `build.gradle` 中引入模块包`implementation project(':swipeback')`
 
 ### 需要了解的知识点
 
