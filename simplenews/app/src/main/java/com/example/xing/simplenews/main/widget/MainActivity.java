@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     private Toolbar mToolbar;
     // 导航视图
     private NavigationView mNavigationView;
+    // 数据呈现类
     private MainPresenter mMainPresenter;
 
     /**
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        // 通过getMenuInflater去接卸初始化菜单
+        // 通过getMenuInflater去解析初始化菜单
         // 第一个参数是菜单项布局文件
         // 第二个参数是传递进来的menu对象，应该是加载布局的容器对象，
         // 因为菜单项布局对象中定义的是`菜单项MenuItem`，而Menu中才能有MenuItem吧

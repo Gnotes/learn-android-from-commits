@@ -2,8 +2,8 @@ package com.example.xing.simplenews.common;
 
 public class Urls {
 
-    //http://c.m.163.com/nc/article/headline/T1348647909107/0-5.html  头条
-
+    // 新浪接口格式 http://c.m.163.com/nc/article/headline/T1348647909107/0-20.html
+    // 返回JSON数据
     public static final int PAZE_SIZE = 20;
 
     public static final String HOST = "http://c.m.163.com/";

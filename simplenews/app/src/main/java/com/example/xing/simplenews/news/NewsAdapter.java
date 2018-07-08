@@ -14,7 +14,9 @@ import com.example.xing.simplenews.utils.ImageLoaderUtils;
 
 import java.util.List;
 
-
+/**
+ * 很多东西还不理解？？？
+ */
 public class NewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
@@ -48,8 +50,7 @@ public class NewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent,
-                                                      int viewType) {
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_ITEM) {
             View v = LayoutInflater.from(parent.getContext())
                     .inflate(R.layout.item_news, parent, false);

@@ -2,6 +2,9 @@ package com.example.xing.simplenews.beans;
 
 import java.util.List;
 
+/**
+ * 新闻详情实体
+ */
 public class NewsDetailBean {
     /**
      * docid

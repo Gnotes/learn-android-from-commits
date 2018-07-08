@@ -60,6 +60,7 @@
 - [NavigationView](https://blog.csdn.net/hj2drf/article/details/77017284) 导航视图
 - [ViewPager](http://www.runoob.com/w3cnote/android-tutorial-viewpager.html)
 - [View Identification](https://github.com/Gnotes/Android/tree/master/UI%E5%B8%83%E5%B1%80#view-identification)
+- [com.facebook.fresco:fresco](https://www.fresco-cn.org/) 图片加载组件
 
 ## 其他知识点
 

@@ -2,6 +2,9 @@ package com.example.xing.simplenews.beans;
 
 import java.io.Serializable;
 
+/**
+ * 新闻实体对象
+ */
 public class NewsBean implements Serializable {
     /**
      * docid
