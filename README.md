@@ -73,6 +73,7 @@ Android Studio
 - 添加项目依赖包 `cmd + ;`
 - 覆写父类方法 `ctrl + o`
 - 实现接口方法 `ctrl + i`
+- 快速导入缺失类 `Option + Return`
 
 ## 基础储备
 
